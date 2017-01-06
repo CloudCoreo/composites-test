@@ -18,14 +18,13 @@ variables:
         type: array
         default:
     NEW_RVARD_BOOL:
-        description: receive empty reports?
+        description: Changed default from false to true
         required: true
         type: boolean
-        default: false
+        default: true
     NEW_RVAR_BOOL:
         description: receive empty reports?
         required: true
         type: boolean
     NEW_VAR_BOOL:
-        description: receive empty reports?
-        type: boolean
+        description: Description change and type change, still no default
