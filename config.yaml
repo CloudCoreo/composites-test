@@ -17,10 +17,15 @@ variables:
         description: tags to apply to the vpc
         type: array
         default:
-    NEW_RVARD_1:
+    NEW_RVARD_BOOL:
+        description: receive empty reports?
         required: true
-        description: New required var with default -- with new default
-        default: "New New Default"
-    NEW_RVAR_2:
-        required: false
-        description: New required var with no default -- no longer required
+        type: boolean
+        default: false
+    NEW_RVAR_BOOL:
+        description: receive empty reports?
+        required: true
+        type: boolean
+    NEW_VAR_BOOL:
+        description: receive empty reports?
+        type: boolean
