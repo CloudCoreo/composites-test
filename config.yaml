@@ -17,6 +17,10 @@ variables:
         description: tags to apply to the vpc
         type: array
         default:
+    NEW_RVAR_STRING:
+        description: New string var with no default
+        required: true
+        type: string
     NEW_RVARD_BOOL:
         description: Changed default from false to true
         required: true
