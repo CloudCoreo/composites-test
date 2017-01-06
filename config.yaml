@@ -19,8 +19,8 @@ variables:
         default:
     NEW_RVARD_1:
         required: true
-        description: New required var with default
-        default: "New Default"
+        description: New required var with default -- with new default
+        default: "New New Default"
     NEW_RVAR_2:
-        required: true
-        description: New required var with no default
+        required: false
+        description: New required var with no default -- no longer required
