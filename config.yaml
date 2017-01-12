@@ -1,1 +1,5 @@
 variables:
+    REGION:
+        required: true
+        description: use default except for multiple region use cases
+        default: "PLAN::region"
